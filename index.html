@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="AISTHETICS CLUB — Dark Fantasy / Dreamcore / AI Cinema">
+    <title>Welcome to AISTHETICS CLUB</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="starfield" aria-hidden="true"><i></i><b></b><em></em></div>
+
+    <main class="home">
+      <span class="pixel-icon planet-left" aria-hidden="true"></span>
+      <span class="pixel-icon knight" aria-hidden="true"></span>
+      <span class="pixel-icon goblin" aria-hidden="true"></span>
+      <span class="pixel-icon planet-right" aria-hidden="true"></span>
+
+      <header>
+        <p class="welcome">WELCOME TO</p>
+        <h1>AISTHETICS CLUB</h1>
+        <p class="website">WEBSITE</p>
+      </header>
+
+      <p class="tagline">DARK FANTASY / DREAMCORE / AI CINEMA</p>
+      <p class="message">YOU HAVE ENTERED THE AISTHETICS CLUB</p>
+
+      <nav aria-label="AISTHETICS CLUB social media">
+        <a href="https://www.instagram.com/aisthetics.club/" target="_blank" rel="noopener">INSTAGRAM<br><small>PICTURES + FILMS</small></a>
+        <a href="https://www.facebook.com/aistheticsclub" target="_blank" rel="noopener">FACEBOOK<br><small>JOIN THE PAGE</small></a>
+        <a class="chat-link" href="#ai-wizard" data-open-wizard>⚡ CHAT WITH ME</a>
+      </nav>
+
+      <section class="club-details" aria-label="AISTHETICS CLUB contact details">
+        <a class="email-button" href="mailto:aistheticsclub@gmail.com">EMAIL THE CLUB</a>
+        <p><a class="guestbook" href="mailto:aistheticsclub@gmail.com?subject=Guestbook%20Entry">SIGN MY GUESTBOOK</a></p>
+      </section>
+
+      <footer>
+        <p class="counter">YOU ARE VISITOR #004821</p>
+        <p>BEST VIEWED IN 800 × 600</p>
+        <p>© 1998 AISTHETICS CLUB</p>
+        <p>LAST UPDATED: 08/21/2026</p>
+      </footer>
+    </main>
+
+    <section class="wizard-overlay" id="ai-wizard" hidden aria-label="AI Wizard chat">
+      <div class="wizard-window" role="dialog" aria-modal="true" aria-labelledby="wizard-title">
+        <div class="wizard-titlebar">
+          <span id="wizard-title">AI WIZARD</span>
+          <button class="wizard-close" type="button" data-close-wizard aria-label="Close chat">×</button>
+        </div>
+        <div class="wizard-screen" id="wizard-screen" aria-live="polite">
+          <div class="wizard-line wizard-message"><span class="wizard-prefix">WIZARD&gt;</span> The signal is open. Ask the dark between the pixels.</div>
+        </div>
+        <form class="wizard-form" id="wizard-form">
+          <label class="sr-only" for="wizard-input">Message for AI Wizard</label>
+          <input id="wizard-input" name="message" type="text" autocomplete="off" maxlength="800" placeholder="type your message..." required>
+          <button type="submit">SEND</button>
+        </form>
+        <div class="wizard-status" id="wizard-status">CONNECTED // LOCAL TEST SIGNAL</div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
